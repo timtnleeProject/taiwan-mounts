@@ -1,5 +1,8 @@
 <template>
   <div class="mounts-table">
+    <h4>
+      進度: {{completedCount}}/{{mounts.length}}
+    </h4>
     <table>
       <tr>
         <th class="col--center">完成</th>
@@ -70,6 +73,11 @@ export default {
         name: '備註',
         key: 'description'
       }]
+    }
+  },
+  computed: {
+    completedCount () {
+      return this.mounts.filter(mount => mount.complete).length
     }
   }
 }

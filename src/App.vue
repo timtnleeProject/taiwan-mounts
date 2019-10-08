@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <mounts-table :mounts="mounts" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MountsTable from '@/components/MountsTable'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    MountsTable
+  },
+  computed: {
+    mounts () {
+      return this.$mounts
+    }
   }
 }
 </script>

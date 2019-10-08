@@ -1,29 +1,3 @@
-# taiwan-mounts
+# 台灣百岳列表
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+資料來源：[維基百科](https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E7%99%BE%E5%B2%B3#%E7%99%BE%E5%B2%B3%E5%88%97%E8%A1%A8)

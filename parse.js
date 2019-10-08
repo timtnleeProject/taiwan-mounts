@@ -10,6 +10,6 @@ const table = raw
     return colname.reduce((acc, name, index) => {
       acc[name] = cols[index] || ''
       return acc
-    }, {})
+    }, { complete: false })
   })
 fs.writeFileSync('./mounts.json', JSON.stringify(table), 'utf-8')

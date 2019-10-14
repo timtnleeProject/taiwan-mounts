@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h2>臺灣百岳名單</h2>
     <mounts-table :mounts="mounts" />
   </div>
 </template>

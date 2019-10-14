@@ -8,7 +8,10 @@ const table = raw
     const cols = str.split('\t')
     const colname = ['id', 'name', 'level', 'height', 'location', 'park', 'series', 'description']
     return colname.reduce((acc, name, index) => {
-      acc[name] = cols[index] || ''
+      const val = ['id', 'height'].includes(name)
+        ? Number(cols[index])
+        : cols[index]
+      acc[name] = val || ''
       return acc
     }, { complete: false })
   })

@@ -297,7 +297,7 @@
     "description": "霞雪沙山"
   },
   {
-    "complete": false,
+    "complete": true,
     "id": 28,
     "name": "大霸尖山",
     "level": "A",
@@ -385,7 +385,7 @@
     "description": ""
   },
   {
-    "complete": false,
+    "complete": true,
     "id": 36,
     "name": "小霸尖山",
     "level": "B",
@@ -572,7 +572,7 @@
     "description": "玉羅府山"
   },
   {
-    "complete": false,
+    "complete": true,
     "id": 53,
     "name": "伊澤山",
     "level": "A",
@@ -935,7 +935,7 @@
     "description": ""
   },
   {
-    "complete": false,
+    "complete": true,
     "id": 86,
     "name": "加利山",
     "level": "A",
